@@ -1,0 +1,57 @@
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: #f1f5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    background-color: #3369ff;
+    padding: 30px 40px;
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.email-input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+}
+
+
+.avatars {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px; 
+}
+
+.avatars img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 4px solid white;
+}
